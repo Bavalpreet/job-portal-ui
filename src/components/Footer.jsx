@@ -179,6 +179,11 @@ const Footer = () => {
               >
                 <span className="relative z-10">Contact Us</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-72 bg-gray-800 border border-gray-700 rounded-xl p-4 text-xs text-gray-300 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-2xl z-50">
+                  <p className="font-semibold text-white mb-2">Contact Us</p>
+                  <p>Have a question or facing an issue? Reach out to our support team and we'll get back to you as soon as possible. We're here to help with any problems you encounter on the platform.</p>
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-700"></div>
+                </div>
               </Link>
             </div>
             <div className="text-center md:text-right">
